@@ -1,5 +1,5 @@
 # odin-recipes
 
-An Odin Project built using html. 
+A Recipe Website Project 
 
-A recipe website. Listing three important recipes.
+A recipe website with important lists of recipes for healthy living.

@@ -2,4 +2,4 @@
 
 An Odin Project built using html. 
 
-A recipe website. Listing 3 important recipes. 
+A recipe website. Listing three important recipes.

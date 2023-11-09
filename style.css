@@ -1,12 +1,58 @@
 *{
-color: white;
+color: black;
+margin: 0;
+padding: 0;
 }
 
 body{
-    background: rgb(0,0,0);
-    background: linear-gradient(309deg, rgba(0,0,0,0.7959558823529411) 40%, rgba(66,53,30,1) 50%, rgba(0,0,0,0.9051995798319328) 69%);
+    /* background: rgb(0,0,0);
+    background: linear-gradient(309deg, rgba(0,0,0,0.7959558823529411) 40%, rgba(66,53,30,1) 50%, rgba(0,0,0,0.9051995798319328) 69%); */
+}
+    
+
+.home{
+    background-image: url(images/pexels-ella-olsson-1640774.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
-.odinimg{
-    width: 400px;
+.home ul{
+    background-color: rgba(255,255,255,0.9);
+    padding: 25px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight:bold;
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+    /* border: 2px solid red; */
+}
+ 
+.home ul li{
+    display: inline;
+}
+
+.home ul li a{
+    float: right;
+    margin: 0px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.home h1{
+    text-align: center;
+    margin: 120px auto;
+    font-size: 70px;
+    background-color: rgba(255,255,255,0.7);
+    width: 250px;
+    padding: 70px;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    
 }

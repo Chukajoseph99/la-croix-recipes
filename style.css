@@ -2,6 +2,8 @@
 color: black;
 margin: 0;
 padding: 0;
+font-family: 'Merriweather', serif;
+
 }
 
 body{
@@ -45,6 +47,10 @@ body{
     font-weight: bold;
 }
 
+.home ul li a:hover{
+    color: gold;
+}
+
 .home h1{
     text-align: center;
     margin: 120px auto;
@@ -56,3 +62,108 @@ body{
     font-family: 'Dancing Script', cursive;
     
 }
+
+.about{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#about{
+    
+}
+
+#about h2{
+    margin: 150px 0 20px 25px;
+    width: 40%;
+    text-align: center;
+    font-size: 40px;
+    font-weight:600;
+    color: gold;
+    border-bottom: 3px solid gold; 
+    padding-bottom: 25px;
+    
+}
+
+
+#about p{
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    font-size: 19px;
+    line-height: 1.5;
+    /* margin: 0 auto; */
+}
+
+#about img{
+    float: right;
+    width: 45%;
+    height: 500px;
+    margin-top: -220px;
+    border-radius: 100%;
+
+}
+
+#recipe{
+    background-color: black;
+    margin-top: 180px;
+    padding: 50px 0;
+}
+
+.recipe{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recipe h2{
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 25px; 
+      
+}
+
+.recipe img{
+    height: 350px;
+    width: 350px;
+    margin: 0 20px;
+}
+
+.circleimg img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 30px 20px;
+}
+
+/* .container{
+    position: relative;
+    float: left;
+}
+
+.container img{
+    position: relative;
+    z-index: 1;
+    
+}
+
+.overlay p{
+    text-align: center;
+    margin-top: 35%;
+}
+
+  .overlay {
+	position: absolute;
+    z-index: 2;
+    top: 0;
+    opacity: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    background-color: #2cbdec;
+    margin-left: 20px;
+  }
+
+  .container:hover .overlay {
+    opacity: 0.8;
+  } */

@@ -7,8 +7,7 @@ font-family: 'Merriweather', serif;
 }
 
 body{
-    /* background: rgb(0,0,0);
-    background: linear-gradient(309deg, rgba(0,0,0,0.7959558823529411) 40%, rgba(66,53,30,1) 50%, rgba(0,0,0,0.9051995798319328) 69%); */
+
 }
     
 
@@ -20,11 +19,13 @@ body{
     background-size: cover;
     margin: 0;
     padding: 0;
+    
 }
 
 .home ul{
     background-color: rgba(255,255,255,0.9);
-    padding: 25px;
+    padding: 25px; 
+
 }
 
 .logo{
@@ -32,7 +33,6 @@ body{
     font-weight:bold;
     font-family: 'Dancing Script', cursive;
     color: gold;
-    /* border: 2px solid red; */
 }
  
 .home ul li{
@@ -106,7 +106,7 @@ body{
 #recipe{
     background-color: black;
     margin-top: 180px;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .recipe{
@@ -118,15 +118,59 @@ body{
     color: gold;
     text-align: center;
     font-size: 40px;
-    padding-bottom: 25px; 
+    padding-bottom: 40px; 
       
 }
 
-.recipe img{
-    height: 350px;
+/* .recipe img{
+    height: 300px;
     width: 350px;
     margin: 0 20px;
+} */
+
+.card{
+    display: inline-block;
+    background-color: #fff;
+    width: 350px;
+    text-decoration: none;
+    margin: 0 20px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(247, 244, 244, 0.9);
+    transition: 0.3s;
+    border-radius: 5px;
+    
 }
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(247, 244, 244, 0.9);
+    transform: scale(1.1); 
+}
+
+.card:hover h3, .card:hover p{
+    color: gold;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+}
+
+.container{
+    padding: 20px 24px;
+    text-align: center;
+    
+}
+
+.container h3{
+    font-size: 21px;
+    margin: 10px 0 20px 0;
+  
+}
+
+.container p{
+margin: 20px 0;
+
+}
+
 
 .circleimg img{
     height: 150px;
@@ -135,35 +179,42 @@ body{
     margin: 30px 20px;
 }
 
-/* .container{
-    position: relative;
-    float: left;
+#testimonial{
+    margin: 50px 0px;
 }
 
-.container img{
-    position: relative;
-    z-index: 1;
-    
+.testimonial{
+    width: 90%;
+    margin: 0 auto;
 }
 
-.overlay p{
+.testimonial h2{
     text-align: center;
-    margin-top: 35%;
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
-  .overlay {
-	position: absolute;
-    z-index: 2;
-    top: 0;
-    opacity: 0;
-    color: #fff;
-    width: 100%;
-    height: 100%;
-    transition: .5s ease;
-    background-color: #2cbdec;
-    margin-left: 20px;
-  }
+.testimonial .contain{
+    display: inline-block;
+    width: 27%;
+    margin: 0 30px;
+    text-align: center;
+}
 
-  .container:hover .overlay {
-    opacity: 0.8;
-  } */
+.contain img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px
+}
+
+.contain h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.contain p{
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}

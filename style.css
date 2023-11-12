@@ -6,6 +6,10 @@ font-family: 'Merriweather', serif;
 
 }
 
+html {
+    scroll-behavior: smooth;
+    }
+
 body{
 
 }
@@ -25,6 +29,10 @@ body{
 .home ul{
     background-color: rgba(255,255,255,0.9);
     padding: 25px; 
+    Position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
 
 }
 
@@ -43,7 +51,7 @@ body{
     float: right;
     margin: 0px 30px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -51,11 +59,17 @@ body{
     color: gold;
 }
 
+.heading{
+    width: 30%;
+    margin: 0 auto;
+}
+
 .home h1{
     text-align: center;
-    margin: 120px auto;
+    position: absolute;
+    margin: 180px auto;
     font-size: 70px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.9);
     width: 250px;
     padding: 70px;
     border-radius: 10%;
@@ -181,6 +195,7 @@ margin: 20px 0;
 
 #testimonial{
     margin: 50px 0px;
+    padding: 20px;
 }
 
 .testimonial{
@@ -217,4 +232,119 @@ margin: 20px 0;
     line-height: 30px;
     font-size: 18px;
     margin-bottom: 15px;
+}
+
+#contact{
+    background-color: black;
+    padding: 80px;
+}
+
+.contact{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact h2, .pg{
+    color: white;
+    text-align: center;
+}
+
+.contact h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.contact .pg{
+    margin-bottom: 20px;
+    font-size: 20px; 
+    padding-bottom: 20px; 
+}
+
+label{
+    color: white;
+}
+
+input, textarea{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin: 6px 0 16px 0;
+    resize: vertical;
+}
+
+input[name="yourname"]{
+    width: 40%;
+    margin-right: 70px;
+}
+
+input[name="youremail"]{
+    width: 40%;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+}
+
+input[type=submit]:hover {
+    background-color: gold;
+}
+
+.box{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    
+    
+}
+
+form{
+margin-left: 70px;
+}
+
+.footer{
+    background-color: black;
+    padding: 20px;
+    border-top: 0.1px groove rgba(255, 255, 255, 0.452);
+}
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer footer .logo{
+    font-size: 24px;
+    font-weight:bold;
+    color: gold;
+}
+
+footer a{
+    color: white;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 30px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+footer ul li a:hover{
+    color: gold;
 }

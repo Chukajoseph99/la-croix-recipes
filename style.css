@@ -3,17 +3,14 @@ color: black;
 margin: 0;
 padding: 0;
 font-family: 'Merriweather', serif;
-
 }
 
 html {
     scroll-behavior: smooth;
     }
 
-body{
-
-}
     
+/* ------------- Main-page --------------- */
 
 .home{
     background-image: url(images/pexels-ella-olsson-1640774.jpg);
@@ -22,8 +19,7 @@ body{
     height: 100vh;
     background-size: cover;
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 
 .home ul{
@@ -82,10 +78,6 @@ body{
     margin: 0 auto;
 }
 
-#about{
-    
-}
-
 #about h2{
     margin: 150px 0 20px 25px;
     width: 40%;
@@ -105,7 +97,6 @@ body{
     width: 45%;
     font-size: 19px;
     line-height: 1.5;
-    /* margin: 0 auto; */
 }
 
 #about img{
@@ -135,12 +126,6 @@ body{
     padding-bottom: 40px; 
       
 }
-
-/* .recipe img{
-    height: 300px;
-    width: 350px;
-    margin: 0 20px;
-} */
 
 .card{
     display: inline-block;
@@ -337,6 +322,189 @@ footer ul li{
 }
 
 footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 30px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+footer ul li a:hover{
+    color: gold;
+}
+
+/* ------------- Linked-pages --------------- */
+
+.body{
+    background-color: rgb(240, 236, 236);
+}
+
+.homepage{
+    /* background-image: url(images/pexels-ella-olsson-1640774.jpg);
+    background-repeat: no-repeat;
+    background-position: center; */
+    height: 70vh;
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(202, 193, 193);
+}
+
+.homepage ul{
+    background-color: rgba(255,255,255,0.9);
+    padding: 25px; 
+    Position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight:bold;
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+}
+ 
+.homepage ul li{
+    display: inline;
+}
+
+.homepage ul li a{
+    float: right;
+    margin: 0px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.homepage ul li a:hover{
+    color: gold;
+}
+
+.homepage h1{
+    text-align: center;
+    position: absolute;
+    /* margin: 180px auto; */
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+    margin: auto;
+    padding-top: 150px; 
+}
+
+.sectiontwo{
+    padding: 90px 0;
+    border-bottom: 0.1px groove rgba(51, 44, 44, 0.452);
+}
+
+.innersectiontwo{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.innersectiontwo img{
+    width: 100%;
+}
+
+.sectionthree{
+    padding: 40px 0;
+    border-bottom: 0.1px groove rgba(51, 44, 44, 0.452);
+}
+
+.innersectionthree{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.innersectionthree h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.innersectionthree p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sectionfour{
+    padding: 40px 0;
+    border-bottom: 0.1px groove rgba(51, 44, 44, 0.452);
+}
+
+.innersectionfour{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.innersectionfour h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.innersectionfour li{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.sectionfive{
+    padding: 40px 0;
+    border-bottom: 0.1px groove rgba(51, 44, 44, 0.452);
+}
+
+.innersectionfive{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.innersectionfive h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.innersectionfive li{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.pagefooter{
+    padding: 20px;
+    border-top: 0.1px groove rgba(255, 255, 255, 0.452);
+}
+
+.pagefooter footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pagefooter footer .logo{
+    font-size: 24px;
+    font-weight:bold;
+    color: gold;
+}
+
+.pagefooter footer a{
+    color: black;
+}
+
+.pagefooter footer ul{
+    text-align: center;
+}
+
+.pagefooter footer ul li{
+    display: inline-block;
+}
+
+.pagefooter footer ul li a{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;

@@ -1,4 +1,4 @@
-# odin-recipes
+# la-croix-recipes
 
 A Recipe Website Project 
 
